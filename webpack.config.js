@@ -4,7 +4,8 @@ const config = {
   context: path.resolve(__dirname, "src"),
   entry: "index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "assets"),
+    publicPath: "assets",
     filename: "bundle.js"
   },
   resolve: {
